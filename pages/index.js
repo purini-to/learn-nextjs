@@ -3,10 +3,6 @@ import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 
 export default function Home() {
-  const none = undefined;
-  if (none.length > 0) {
-    console.log("This will never happen");
-  }
   return (
     <Layout home>
       <Head>
